@@ -1,5 +1,5 @@
 const token = localStorage.getItem('token') || ""
-const url = "http://localhost:3800/api/users"
+const url = "http://35.207.31.16:8080"
 const tbody = document.getElementById('tbody')
 
 document.addEventListener('DOMContentLoaded', async () => {
