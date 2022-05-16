@@ -1,5 +1,5 @@
 const token = localStorage.getItem('token') || ""
-const url = "http://35.207.31.16:8080"
+const url = "https://backend-with-firebase-admin.herokuapp.com/"
 const tbody = document.getElementById('tbody')
 
 document.addEventListener('DOMContentLoaded', async () => {
